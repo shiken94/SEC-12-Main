@@ -1,0 +1,29 @@
+{
+  "name": "taskmasterpro",
+  "version": "1.0.0",
+  "description": "A task master project",
+  "homepage": "https://github.com/shiken94/SEC-12-Main#readme",
+  "bugs": {
+    "url": "https://github.com/shiken94/SEC-12-Main/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shiken94/SEC-12-Main.git"
+  },
+  "license": "ISC",
+  "author": "Shiken.I",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "nodemon": "^3.1.14",
+    "pg": "^8.20.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.37.8"
+  }
+}
