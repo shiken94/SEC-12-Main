@@ -175,6 +175,9 @@ GET /users/:id/tasks
 Delete Task
 DELETE /tasks/:id
 
+Update Task
+PUT /tasks/:id
+
 
 📊 Database Relationship
 Users

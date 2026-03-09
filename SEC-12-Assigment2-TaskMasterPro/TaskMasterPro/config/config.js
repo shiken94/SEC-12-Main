@@ -5,7 +5,7 @@ module.exports = {
     db: {
         database: process.env.DB_NAME || 'task_master_pro',
         user: process.env.DB_USER || 'postgres',
-        password: process.env.DB_PASSWORD || 'mendoz@6282',
+        password: process.env.DB_PASSWORD || '',
         host: process.env.DB_HOST || 'localhost',
         dialect: 'postgres',
     }
